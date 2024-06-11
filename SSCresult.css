@@ -1,0 +1,52 @@
+.content{
+    text-align: center;
+    background-color: aliceblue;
+    border: solid;
+}
+
+.information{text-align: center;}
+.information tr{
+   width: 40vw; 
+}
+.information th{
+    background-color: aliceblue;
+    width: 30vw;
+    border: solid;
+}
+.information td{
+    background-color: aliceblue;
+    width: 33vw;
+    border: solid 2px;
+    margin: -2%;
+}
+.marks th{
+    background-color: white;
+    width: 33vw;
+    border: solid #cccccc 1px;
+    margin: bottom -1.4%;
+    margin-top: -1.2%;
+}
+.marks td{
+    background-color: #f5f5f5;
+    width: 33vw;
+    border: solid #cccccc 0.2px;
+    margin: -2%;
+}
+
+@media (max-width:600px) {
+    .information {
+        width: 100vw;
+    }
+
+    .content {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .content h1 {
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+}
